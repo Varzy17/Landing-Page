@@ -103,7 +103,9 @@ a {
     color: #1F2937;
     text-align: center;
 }
-
+.info-box {
+    max-width: 200px;
+}
 .info-box img {
     height: auto;
     width: 100px;
@@ -112,7 +114,8 @@ a {
     display: flex;
     padding: 80px 120px;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 52px;
 }
 
 .quote-box {
